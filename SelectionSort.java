@@ -1,3 +1,19 @@
+/*
+----------------Selection sort-------------------
+
+It sorts a list in ascending order by finding the smallest number in the list 
+and swaps with the first element in the list.
+Then, it finds the next smallest number and place it into the second element.
+It keeps doing until finish going through the whole list.
+@author: Xiaomeng Li
+@version: Nov 17, 2020
+
+Input: a list of double values, double [] list
+
+Output: a list of double values in ascending order.
+
+*/
+
 public class SelectionSort {
 	public static double[] selectionSort (double[] list) {
 
